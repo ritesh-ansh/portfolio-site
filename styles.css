@@ -33,7 +33,7 @@ body{
 
 /* Navbar Styling */
 .nav-div{
-    position: absolute;
+    position: fixed;
     padding: 1.1rem 2.5rem;
     z-index: 1;
     filter: brightness(100%);
@@ -100,9 +100,8 @@ body{
 }
 
 .about-info{
-    position: relative;
-    right: 5%;
-    left: 5%;
+    position: absolute;
+    left: 40%;
     padding: 5%;
     line-height: 2;
     color: #e0e0e0;
