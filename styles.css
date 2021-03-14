@@ -1,0 +1,120 @@
+:root{
+    --main-color : #351f39;
+    --secondary-color : #726a95
+}
+
+
+/* fonts */
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Open Sans', sans-serif; */
+
+/* fonts end  */
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    background-color: #202020;
+}
+
+
+/* Home background */
+
+.header {
+    
+    background: url("img/bg-masthead.jpg") no-repeat fixed;
+    background-size: cover ;
+    height: auto;
+    width: 100%;
+    filter: brightness(70%);
+}
+
+/* Navbar Styling */
+.nav-div{
+    position: absolute;
+    padding: 1.1rem 2.5rem;
+    z-index: 1;
+    filter: brightness(100%);
+}
+.navbar .brand-text{
+    font-size: 2.2rem;
+}
+.navbar .navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+}
+
+.navbar .navbar-elements{
+    padding: 0 1.5rem;
+    margin: 0px 10px;
+    font-size: 1.2rem;
+    
+}
+
+.navbar .nav-link:hover {
+    transition: colour 0.3s easy !important;
+    color: whitesmoke !important;
+}
+/* Intro */
+
+.header{
+    position:relative;
+}
+.header-text{
+    padding: 30% 20% 20% 8%;
+    margin-left: 20%;
+    filter: brightness(200%);
+    color: #000000 !important;
+    
+    
+}
+.header-text .header-span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.header-text .header-name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    font-weight: 700;
+    /* color: #6e7c7c; */
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+/* About Section */
+
+#about ,container-fluid{
+    padding: 1.5rem;
+}
+
+.about-img{
+    border-radius: 90%;
+    height: 95%;
+    width: 90%;
+}
+
+.about-info{
+    position: relative;
+    right: 5%;
+    left: 5%;
+    padding: 5%;
+    line-height: 2;
+    color: #e0e0e0;
+}
+#section, row{
+    position: absolute;
+    right: 1.5rem;
+    
+}
+
+/* Project Section */
+
+#project, container-fliud{
+    position: relative;
+}
