@@ -32,19 +32,20 @@ body{
 }
 
 /* Navbar Styling */
-.nav-div{
-    position: absolute;
-    padding: 1.1rem 2.5rem;
-    z-index: 1;
-    filter: brightness(100%);
-}
+
+
 .navbar .brand-text{
     font-size: 2.2rem;
 }
 .navbar .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
+    padding-left: 1.5rem;
     /* font-weight: bold; */
+}
+
+.navbar .collapse .nav-item{
+    padding: 0 1.5rem;
 }
 
 .navbar .navbar-elements{
@@ -57,6 +58,12 @@ body{
 .navbar .nav-link:hover {
     transition: colour 0.3s easy !important;
     color: whitesmoke !important;
+}
+
+
+
+.navbar .nav-item{
+    padding: 0 1.5rem ;
 }
 /* Intro */
 
@@ -89,31 +96,31 @@ body{
 
 /* About Section */
 
-#about ,container-fluid{
-    padding: 1.5rem;
-}
 
-.about-img{
+.about .img-div{
+    padding: 10px;
+    /* margin: 10px; */
+}
+.about .about-img{
+    position: absolute;
+    left: 10%;
+    padding-top: 2%;
+    height: 60%;
     border-radius: 90%;
-    height: 95%;
-    width: 90%;
+    width: auto;
 }
 
-.about-info{
-    position: absolute;
-    left: 40%;
-    padding: 5%;
-    line-height: 2;
-    color: #e0e0e0;
-}
-#section, row{
-    position: absolute;
-    right: 1.5rem;
+.about .about-info{
+    padding: 10% 2%;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    /* margin: 10px; */
+    line-height: 3;
     
 }
 
+
+
+
 /* Project Section */
 
-#project, container-fliud{
-    position: relative;
-}
