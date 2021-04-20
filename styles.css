@@ -121,6 +121,18 @@ body{
     
 }
 
+@media(max-width: 1028px){
+    #about .about{
+        text-align: center;
+        
+    }
+
+    #about .about-img{
+        position:static;
+
+    }
+}
+
 
 
 
