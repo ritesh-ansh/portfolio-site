@@ -96,24 +96,22 @@ body{
 
 /* About Section */
 
-.about{
-    margin-bottom: 8%;
 
-}
 
-.about .img-div{
-    padding: 10px;
-    /* margin: 10px; */
-}
-.about .about-img{
+
+.about-div .about-img{
     position: relative;
-    border-radius: 90%;
+    border-radius: 80%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
     left: 10%;
     top: 10%;
 }
 
-.about .about-info{
-    padding: 10% 2%;
+.about-div .about-info{
+    margin-top: 5%;
+    padding: 5% 2%;
     color: whitesmoke;
     font-size: 1.5rem;
     /* margin: 10px; */
@@ -121,18 +119,22 @@ body{
     
 }
 
-@media(max-width: 1028px){
-    #about .about{
-        text-align: center;
+
+@media(max-width: 991px){
+    #about .about-div{
+        margin: auto;
         
     }
 
-    #about .about-img{
-        position:static;
+    .about-img{
+        
+        border-radius: 5% !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 }
-
 
 
 
