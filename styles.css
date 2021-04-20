@@ -96,18 +96,20 @@ body{
 
 /* About Section */
 
+.about{
+    margin-bottom: 8%;
+
+}
 
 .about .img-div{
     padding: 10px;
     /* margin: 10px; */
 }
 .about .about-img{
-    position: absolute;
-    left: 10%;
-    padding-top: 2%;
-    height: 60%;
+    position: relative;
     border-radius: 90%;
-    width: auto;
+    left: 10%;
+    top: 10%;
 }
 
 .about .about-info{
@@ -124,3 +126,7 @@ body{
 
 /* Project Section */
 
+projects .img{
+    max-width: 480;
+    max-height: 270;
+}
