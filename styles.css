@@ -35,7 +35,7 @@ body{
 
 
 .navbar .brand-text{
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 .navbar .navbar-brand {
     font-family: 'Dancing Script', cursive;
@@ -45,7 +45,10 @@ body{
 }
 
 .navbar .collapse .nav-item{
+    font-family: cursive;
     padding: 0 1.5rem;
+    font-size: 1.3rem ;
+
 }
 
 .navbar .navbar-elements{
@@ -96,6 +99,9 @@ body{
 
 /* About Section */
 
+#about{
+    margin-bottom: 5%;
+}
 
 
 
@@ -142,7 +148,67 @@ body{
 
 /* Project Section */
 
-projects .img{
-    max-width: 480;
-    max-height: 270;
+/* CTA */
+
+.cta-div{
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 2% 5% 5% 5%;
+}
+
+
+.cta-text{
+    color: #969696;
+    line-height: 1.7;
+    word-spacing: 8px;
+    font-family:  cursive;
+    font-size: 2.5rem;
+    
+}
+
+.git-line{
+    color: whitesmoke;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
+
+    
+}
+.cta-icon-div{
+    padding-top: 10px;
+    margin:3%;
+}
+
+.cta-icons{
+    position: relative;
+    color: whitesmoke;
+    padding-left: 2%;
+    margin: 15px;
+    
+}
+.cta-icons:hover{
+    transition: colour 0.3s easy !important;
+    transition: translateY(-10px) !important ;
+    color: #000000 !important;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 5% ;
+
+}
+
+.footer-div{
+    color: whitesmoke;
+    
+}
+
+.footer-text{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.3rem;
 }
